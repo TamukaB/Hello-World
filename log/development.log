@@ -1,0 +1,234 @@
+Started GET "/" for ::1 at 2024-10-14 12:32:48 +0100
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/tamuka/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/railties-7.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/tamuka/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/railties-7.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | GC: 0.1ms)
+Completed 200 OK in 12ms (Views: 3.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.6ms)
+
+
+Started GET "/" for ::1 at 2024-10-14 12:34:47 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/tamuka/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/railties-7.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/tamuka/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/railties-7.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | GC: 0.0ms)
+Completed 200 OK in 9ms (Views: 6.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2024-10-14 12:56:52 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/tamuka/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/railties-7.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/tamuka/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/railties-7.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | GC: 0.0ms)
+Completed 200 OK in 5ms (Views: 1.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/hello_world" for ::1 at 2024-10-14 12:56:57 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/hello_world"):
+  
+Started GET "/hello" for ::1 at 2024-10-14 12:57:01 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/hello_world" for ::1 at 2024-10-14 12:57:06 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/hello_world"):
+  
+Started GET "/hello_world" for ::1 at 2024-10-14 12:57:06 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/hello_world"):
+  
+Started GET "/hello" for ::1 at 2024-10-14 12:57:09 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/" for ::1 at 2024-10-14 12:57:10 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/tamuka/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/railties-7.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/tamuka/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/railties-7.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.2ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2024-10-14 13:04:19 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/tamuka/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/railties-7.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/tamuka/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/railties-7.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.8ms | GC: 0.1ms)
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.1ms)
+
+
+Started GET "/hello" for ::1 at 2024-10-14 13:04:22 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/hello" for ::1 at 2024-10-14 13:05:31 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/hello" for ::1 at 2024-10-14 13:05:32 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/" for ::1 at 2024-10-14 13:05:34 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/tamuka/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/railties-7.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/tamuka/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/railties-7.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.2ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2024-10-14 13:05:36 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/tamuka/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/railties-7.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/tamuka/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/railties-7.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/" for ::1 at 2024-10-14 13:05:37 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/tamuka/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/railties-7.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/tamuka/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/railties-7.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.2ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2024-10-14 13:05:45 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/tamuka/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/railties-7.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/tamuka/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/railties-7.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.2ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/hello" for ::1 at 2024-10-14 13:05:48 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/hello_world" for ::1 at 2024-10-14 13:05:51 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/hello_world"):
+  
+Started GET "/hello/" for ::1 at 2024-10-14 13:05:56 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/hello" for ::1 at 2024-10-14 13:05:59 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/hello" for ::1 at 2024-10-14 13:07:24 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/hello" for ::1 at 2024-10-14 13:07:25 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/" for ::1 at 2024-10-14 13:07:27 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/tamuka/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/railties-7.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/tamuka/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/railties-7.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2024-10-14 14:12:01 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/tamuka/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/railties-7.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/tamuka/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/railties-7.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/hello" for ::1 at 2024-10-14 14:12:07 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/hello_world" for ::1 at 2024-10-14 14:12:14 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/hello_world"):
+  
+Started GET "/rails/info/routes?query=hello" for ::1 at 2024-10-14 14:12:19 +0100
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"query"=>"hello"}
+Completed 200 OK in 6ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.7ms)
+
+
+Started GET "/rails/info/routes?query=hello_" for ::1 at 2024-10-14 14:12:21 +0100
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"query"=>"hello_"}
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.7ms)
+
+
+Started GET "/rails/info/routes?query=hello_world" for ::1 at 2024-10-14 14:12:22 +0100
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"query"=>"hello_world"}
+Completed 200 OK in 9ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 2.0ms)
+
+
+Started GET "/" for ::1 at 2024-10-14 14:12:27 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/tamuka/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/railties-7.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/tamuka/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/railties-7.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2024-10-14 14:14:03 +0100
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 700.3ms | GC: 26.3ms)
+Completed 200 OK in 722ms (Views: 701.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 26.7ms)
+
+
+Started GET "/manifest.json" for ::1 at 2024-10-14 14:14:04 +0100
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 0.5ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2024-10-14 14:26:13 +0100
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 0.4ms | GC: 0.3ms)
+  Rendered layout layouts/application.html.erb (Duration: 35.9ms | GC: 1.7ms)
+Completed 200 OK in 38ms (Views: 36.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.7ms)
+
+
+Started GET "/manifest.json" for ::1 at 2024-10-14 14:26:13 +0100
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 0ms (Views: 0.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2024-10-14 14:26:14 +0100
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | GC: 0.6ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.6ms)
+
+
+Started GET "/manifest.json" for ::1 at 2024-10-14 14:26:14 +0100
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2024-10-14 14:48:31 +0100
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | GC: 0.5ms)
+Completed 200 OK in 10ms (Views: 7.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/manifest.json" for ::1 at 2024-10-14 14:48:31 +0100
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 0.2ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
